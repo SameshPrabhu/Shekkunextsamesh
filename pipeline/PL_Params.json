@@ -1,0 +1,24 @@
+{
+	"name": "PL_Params",
+	"properties": {
+		"activities": [
+			{
+				"name": "Filter1",
+				"type": "Filter",
+				"dependsOn": [],
+				"userProperties": []
+			}
+		],
+		"parameters": {
+			"stringakshayArray": {
+				"type": "array",
+				"defaultValue": [
+					"a",
+					"b",
+					"c"
+				]
+			}
+		},
+		"annotations": []
+	}
+}

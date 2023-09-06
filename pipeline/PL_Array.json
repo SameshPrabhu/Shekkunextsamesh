@@ -19,6 +19,12 @@
 				}
 			}
 		],
+		"parameters": {
+			"account_name": {
+				"type": "string",
+				"defaultValue": "ab-667"
+			}
+		},
 		"variables": {
 			"DataArray ": {
 				"type": "String",
