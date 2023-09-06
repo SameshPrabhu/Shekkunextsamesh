@@ -1,6 +1,30 @@
 {
 	"name": "PL_Array",
 	"properties": {
+		"activities": [
+			{
+				"name": "Filter1",
+				"type": "Filter",
+				"dependsOn": [],
+				"userProperties": [],
+				"typeProperties": {
+					"items": {
+						"value": "@variables('DataArray ')",
+						"type": "Expression"
+					},
+					"condition": {
+						"value": "@not(equals(item(),'ccc'))",
+						"type": "Expression"
+					}
+				}
+			}
+		],
+		"variables": {
+			"DataArray ": {
+				"type": "String",
+				"defaultValue": "[\"aaa\",\"bbb\",\"ccc\",\"ddd\"]"
+			}
+		},
 		"annotations": []
 	}
 }
